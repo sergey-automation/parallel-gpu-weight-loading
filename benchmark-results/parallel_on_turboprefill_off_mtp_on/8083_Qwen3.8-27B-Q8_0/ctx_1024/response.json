@@ -1,0 +1,116 @@
+{
+  "index": 0,
+  "content": "Нужно ответить на русском. Пользователь дал журнал технических измерений и вопрос: как организовать проверку надёжности многопроцессорной вычислительной системы после загрузки большой языковой модели. Требует подробный ответ, нумеровать этапы, для каждого этапа указать наблюдаемые признаки и действия при сбое. Не менее 25 этапов; не завершай ответ раньше.\n\nНужно, вероятно, не анализировать журнал? Возможно это тест на следование инструкциям. Журнал может быть irrelevant, но можно упомянуть, что журнал прочитан, но вопрос требует 25 этапов",
+  "tokens": [],
+  "id_slot": 0,
+  "stop": true,
+  "model": "Qwen3.8-27B-Q8",
+  "tokens_predicted": 128,
+  "tokens_evaluated": 1024,
+  "generation_settings": {
+    "seed": 9107,
+    "temperature": 0.699999988079071,
+    "dynatemp_range": 0.0,
+    "dynatemp_exponent": 1.0,
+    "top_k": 20,
+    "top_p": 0.949999988079071,
+    "min_p": 0.05000000074505806,
+    "top_n_sigma": -1.0,
+    "xtc_probability": 0.0,
+    "xtc_threshold": 0.10000000149011612,
+    "typical_p": 1.0,
+    "repeat_last_n": 64,
+    "repeat_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "dry_multiplier": 0.0,
+    "dry_base": 1.75,
+    "dry_allowed_length": 2,
+    "dry_penalty_last_n": 64,
+    "dry_sequence_breakers": [
+      "\n",
+      ":",
+      "\"",
+      "*"
+    ],
+    "mirostat": 0,
+    "mirostat_tau": 5.0,
+    "mirostat_eta": 0.10000000149011612,
+    "adaptive_target": -1.0,
+    "adaptive_decay": 0.8999999761581421,
+    "stop": [],
+    "max_tokens": 128,
+    "n_predict": 128,
+    "n_keep": 0,
+    "n_discard": 0,
+    "ignore_eos": true,
+    "stream": false,
+    "logit_bias": [
+      {
+        "bias": null,
+        "token": 248044
+      },
+      {
+        "bias": null,
+        "token": 248046
+      },
+      {
+        "bias": null,
+        "token": 248063
+      },
+      {
+        "bias": null,
+        "token": 248064
+      },
+      {
+        "bias": null,
+        "token": 248065
+      }
+    ],
+    "n_probs": 0,
+    "min_keep": 0,
+    "grammar": "",
+    "grammar_lazy": false,
+    "grammar_triggers": [],
+    "preserved_tokens": [],
+    "chat_format": "Content-only",
+    "reasoning_format": "deepseek",
+    "reasoning_in_content": false,
+    "generation_prompt": "",
+    "samplers": [
+      "penalties",
+      "dry",
+      "top_n_sigma",
+      "top_k",
+      "typ_p",
+      "top_p",
+      "min_p",
+      "xtc",
+      "temperature"
+    ],
+    "speculative.types": "none,draft-mtp",
+    "timings_per_token": true,
+    "post_sampling_probs": false,
+    "backend_sampling": false,
+    "lora": []
+  },
+  "prompt": "<|im_start|>system\nReasoning effort is set to xhigh. Please think carefully through the task, validate key assumptions, consider plausible alternatives, and prioritize correctness, consistency, and clarity in the final answer.<|im_end|>\n<|im_start|>user\nУникальный документ для теста bcb354395b1975c6a7f42ebd367a9619f198e05735bd2254d6a50d7c6191efe3. Прочитай журнал технических измерений. Каждая строка описывает отдельное наблюдение. После журнала ответь на вопрос.\nЗапись 00000: код 3382b166cec504; измерение 457; датчик 0; состояние норма.\nЗапись 00001: код 85586a132d4083; измерение 94; датчик 8; состояние проверка.\nЗапись 00002: код 9c559a462ba650; измерение 37; датчик 6; состояние норма.\nЗапись 00003: код 505a153fe955f4; измерение 570; датчик 0; состояние норма.\nЗапись 00004: код 4d9ef8f5cb2a88; измерение 518; датчик 4; состояние норма.\nЗапись 00005: код 869182786c048a; измерение 306; датчик 14; состояние активен.\nЗапись 00006: код ee771371555637; измерение 94; датчик 1; состояние проверка.\nЗапись 00007: код 20311dc0ef256b; измерение 797; датчик 5; состояние проверка.\nЗапись 00008: код b463d2705908a2; измерение 956; датчик 10; состояние активен.\nЗапись 00009: код 44f9141cd9e3da; измерение 965; датчик 7; состояние активен.\nЗапись 00010: код 73437443d0300d; измерение 905; датчик 5; состояние ожидание.\nЗапись 00011: код 815b88e8a3114f; измерение 502; датчик 14; состояние проверка.\nЗапись 00012: код e195ce84097d8a; измерение 618; датчик 15; состояние активен.\nЗапись 00013: код 8238a658357560; измерение 807; датчик 9; состояние норма.\nЗапись 00014: код 9ac903242dcd61; измерение 571; датчик 10; состояние ожидание.\nЗапись 00015:29; датчик 9; состояние ожидание.\nЗапись 00442: код 29b55477d2ca6c; измерение 891; датчик 10; состояние норма.\nЗапись 00443: код ab612981ac92e3; измерение 933; датчик 14; состояние проверка.\nЗапись 00444: код 3417fc60aa834b; измерение 637; датчик 0; состояние проверка.\nЗапись 00445: код 9a0e3ed1f72efc; измерение 613; датчик 15; состояние норма.\n\nВОПРОС: Как организовать проверку надёжности многопроцессорной вычислительной системы после загрузки большой языковой модели? Дай подробный ответ, нумеруй этапы, для каждого этапа укажи наблюдаемые признаки и действия при сбое. Напиши не менее 25 этапов; не завершай ответ раньше.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+  "has_new_line": true,
+  "truncated": false,
+  "stop_type": "limit",
+  "stopping_word": "",
+  "tokens_cached": 1151,
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1024,
+    "prompt_ms": 12036.071,
+    "prompt_per_token_ms": 11.7539755859375,
+    "prompt_per_second": 85.07759716605194,
+    "predicted_n": 128,
+    "predicted_ms": 12035.168,
+    "predicted_per_token_ms": 94.76510236220471,
+    "predicted_per_second": 10.55240774370578,
+    "draft_n": 140,
+    "draft_n_accepted": 80
+  }
+}

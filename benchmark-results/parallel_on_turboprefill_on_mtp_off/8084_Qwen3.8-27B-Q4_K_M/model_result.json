@@ -1,0 +1,101 @@
+{
+  "name": "Qwen3.8-27B-Q4_K_M",
+  "port": 8084,
+  "gpus": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "load_status": "OK",
+  "load_s": 34.262,
+  "status": "OK",
+  "error": "",
+  "tests": [
+    {
+      "target_tokens": 512,
+      "prompt_tokens_sent": 512,
+      "prompt_n": 512,
+      "cache_n": 0,
+      "prefill_ms": 4469.892,
+      "prefill_tps": 114.54415453438249,
+      "decode_tokens": 128,
+      "decode_ms": 14164.736,
+      "decode_tps": 8.96592778008711,
+      "test_status": "OK",
+      "error": "",
+      "wall_s": 18.648753815999953
+    },
+    {
+      "target_tokens": 1024,
+      "prompt_tokens_sent": 1024,
+      "prompt_n": 1024,
+      "cache_n": 0,
+      "prefill_ms": 5987.183,
+      "prefill_tps": 171.0320195657958,
+      "decode_tokens": 128,
+      "decode_ms": 14048.849,
+      "decode_tps": 9.039886470414766,
+      "test_status": "OK",
+      "error": "",
+      "wall_s": 21.232594836998032
+    },
+    {
+      "target_tokens": 2048,
+      "prompt_tokens_sent": 2048,
+      "prompt_n": 2048,
+      "cache_n": 0,
+      "prefill_ms": 9210.957,
+      "prefill_tps": 222.3438889140401,
+      "decode_tokens": 128,
+      "decode_ms": 14143.977,
+      "decode_tps": 8.979086999363757,
+      "test_status": "OK",
+      "error": "",
+      "wall_s": 24.727452188002644
+    },
+    {
+      "target_tokens": 8192,
+      "prompt_tokens_sent": 8192,
+      "prompt_n": 8192,
+      "cache_n": 0,
+      "prefill_ms": 30172.454,
+      "prefill_tps": 271.5059239132488,
+      "decode_tokens": 128,
+      "decode_ms": 14623.805,
+      "decode_tps": 8.684470286631967,
+      "test_status": "OK",
+      "error": "",
+      "wall_s": 46.526468216994544
+    }
+  ],
+  "pid": 101055,
+  "gpu_after_load": {
+    "7": {
+      "uuid": "GPU-84ba002a-89ac-7a76-8a42-681196e18fce",
+      "used_mib": "6914",
+      "total_mib": "8192"
+    },
+    "8": {
+      "uuid": "GPU-b7892ece-3762-04d0-4bbe-753c094ea129",
+      "used_mib": "6310",
+      "total_mib": "8192"
+    },
+    "9": {
+      "uuid": "GPU-c65ebf4d-e1fe-ed3b-baeb-7d661c6b0d06",
+      "used_mib": "7534",
+      "total_mib": "8192"
+    },
+    "10": {
+      "uuid": "GPU-abff39cd-0aae-73c3-27c6-869b4d037314",
+      "used_mib": "6276",
+      "total_mib": "8192"
+    },
+    "11": {
+      "uuid": "GPU-a1fe1d5f-8245-9b8e-0a83-2389ff46a7f9",
+      "used_mib": "6376",
+      "total_mib": "8192"
+    }
+  }
+}

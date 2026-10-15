@@ -1,0 +1,3 @@
+We need answer in Russian. User provided a log of technical measurements and asks: "ВОПРОС: Как организовать проверку надёжности многопроцессорной вычислительной системы после загрузки большой языковой модели? Дай подробный ответ, нумеруй этапы, для каждого этапа укажи наблюдаемые признаки и действия при сбое. Напиши не менее 25 этапов; не завершай ответ раньше."
+
+We need produce detailed answer with at least 25 numbered stages, for each stage observed signs and actions on failure. Need likely ignore log? It says read log, each line observation

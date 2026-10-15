@@ -1,0 +1,114 @@
+{
+  "index": 0,
+  "content": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Document ID/Code:** `bc03126a2ebf45f78f694ff18cc57ee1ec9201631485eac3f72cefe6de881a58` (Unique document for test)\n   - **Task:** Read the technical measurement journal. Each line describes an observation. After the journal, answer the question.\n   - **Journal:** 8 records (Запись 00",
+  "tokens": [],
+  "id_slot": 0,
+  "stop": true,
+  "model": "/mnt/pm981/models/Qwen3.6-35B-A3B-abliterated-v4-Q8_0.gguf",
+  "tokens_predicted": 128,
+  "tokens_evaluated": 512,
+  "generation_settings": {
+    "seed": 8598,
+    "temperature": 0.699999988079071,
+    "dynatemp_range": 0.0,
+    "dynatemp_exponent": 1.0,
+    "top_k": 20,
+    "top_p": 0.949999988079071,
+    "min_p": 0.05000000074505806,
+    "top_n_sigma": -1.0,
+    "xtc_probability": 0.0,
+    "xtc_threshold": 0.10000000149011612,
+    "typical_p": 1.0,
+    "repeat_last_n": 64,
+    "repeat_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "dry_multiplier": 0.0,
+    "dry_base": 1.75,
+    "dry_allowed_length": 2,
+    "dry_penalty_last_n": 64,
+    "dry_sequence_breakers": [
+      "\n",
+      ":",
+      "\"",
+      "*"
+    ],
+    "mirostat": 0,
+    "mirostat_tau": 5.0,
+    "mirostat_eta": 0.10000000149011612,
+    "adaptive_target": -1.0,
+    "adaptive_decay": 0.8999999761581421,
+    "stop": [],
+    "max_tokens": 128,
+    "n_predict": 128,
+    "n_keep": 0,
+    "n_discard": 0,
+    "ignore_eos": true,
+    "stream": false,
+    "logit_bias": [
+      {
+        "bias": null,
+        "token": 248044
+      },
+      {
+        "bias": null,
+        "token": 248046
+      },
+      {
+        "bias": null,
+        "token": 248063
+      },
+      {
+        "bias": null,
+        "token": 248064
+      },
+      {
+        "bias": null,
+        "token": 248065
+      }
+    ],
+    "n_probs": 0,
+    "min_keep": 0,
+    "grammar": "",
+    "grammar_lazy": false,
+    "grammar_triggers": [],
+    "preserved_tokens": [],
+    "chat_format": "Content-only",
+    "reasoning_format": "deepseek",
+    "reasoning_in_content": false,
+    "generation_prompt": "",
+    "samplers": [
+      "penalties",
+      "dry",
+      "top_n_sigma",
+      "top_k",
+      "typ_p",
+      "top_p",
+      "min_p",
+      "xtc",
+      "temperature"
+    ],
+    "speculative.types": "none,none",
+    "timings_per_token": true,
+    "post_sampling_probs": false,
+    "backend_sampling": false,
+    "lora": []
+  },
+  "prompt": "<|im_start|>user\nУникальный документ для теста bc03126a2ebf45f78f694ff18cc57ee1ec9201631485eac3f72cefe6de881a58. Прочитай журнал технических измерений. Каждая строка описывает отдельное наблюдение. После журнала ответь на вопрос.\nЗапись 00000: код 860726541d1425; измерение 546; датчик 9; состояние ожидание.\nЗапись 00001: код 2d052646884b79; измерение 236; датчик 14; состояние ожидание.\nЗапись 00002: код d5d68b73eb0572; измерение 43; датчик 15; состояние активен.\nЗапись 00003: код 90785135866262; измерение 853; датчик 1; датчик 15; состояние норма.\nЗапись 00369: код 6987c6eae83302; измерение 482; датчик 5; состояние активен.\nЗапись 00370: код 81cee79d92a99e; измерение 374; датчик 6; состояние активен.\nЗапись 00371: код 70327c4a09aef0; измерение 730; датчик 1; состояние норма.\nЗапись 00372: код 66bacf918198b4; измерение 808; датчик 13; состояние норма.\n\nВОПРОС: Как организовать проверку надёжности многопроцессорной вычислительной системы после загрузки большой языковой модели? Дай подробный ответ, нумеруй этапы, для каждого этапа укажи наблюдаемые признаки и действия при сбое. Напиши не менее 25 этапов; не завершай ответ раньше.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+  "has_new_line": true,
+  "truncated": false,
+  "stop_type": "limit",
+  "stopping_word": "",
+  "tokens_cached": 639,
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 512,
+    "prompt_ms": 3242.759,
+    "prompt_per_token_ms": 6.333513671875,
+    "prompt_per_second": 157.8902409953993,
+    "predicted_n": 128,
+    "predicted_ms": 4318.878,
+    "predicted_per_token_ms": 34.00691338582677,
+    "predicted_per_second": 29.40578548410027
+  }
+}

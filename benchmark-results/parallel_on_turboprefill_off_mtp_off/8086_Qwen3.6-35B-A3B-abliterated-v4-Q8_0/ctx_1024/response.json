@@ -1,0 +1,114 @@
+{
+  "index": 0,
+  "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A unique document identifier (`41383ad060c5dee6e04a890f2d1facde4ebf4a220590e161389fe0f62580ffde`), a \"journal of technical measurements\" (16 records from 00000 to 00445, with some gaps and a typo in record 00016), and a specific question.\n   ",
+  "tokens": [],
+  "id_slot": 0,
+  "stop": true,
+  "model": "/mnt/pm981/models/Qwen3.6-35B-A3B-abliterated-v4-Q8_0.gguf",
+  "tokens_predicted": 128,
+  "tokens_evaluated": 1024,
+  "generation_settings": {
+    "seed": 9110,
+    "temperature": 0.699999988079071,
+    "dynatemp_range": 0.0,
+    "dynatemp_exponent": 1.0,
+    "top_k": 20,
+    "top_p": 0.949999988079071,
+    "min_p": 0.05000000074505806,
+    "top_n_sigma": -1.0,
+    "xtc_probability": 0.0,
+    "xtc_threshold": 0.10000000149011612,
+    "typical_p": 1.0,
+    "repeat_last_n": 64,
+    "repeat_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "dry_multiplier": 0.0,
+    "dry_base": 1.75,
+    "dry_allowed_length": 2,
+    "dry_penalty_last_n": 64,
+    "dry_sequence_breakers": [
+      "\n",
+      ":",
+      "\"",
+      "*"
+    ],
+    "mirostat": 0,
+    "mirostat_tau": 5.0,
+    "mirostat_eta": 0.10000000149011612,
+    "adaptive_target": -1.0,
+    "adaptive_decay": 0.8999999761581421,
+    "stop": [],
+    "max_tokens": 128,
+    "n_predict": 128,
+    "n_keep": 0,
+    "n_discard": 0,
+    "ignore_eos": true,
+    "stream": false,
+    "logit_bias": [
+      {
+        "bias": null,
+        "token": 248044
+      },
+      {
+        "bias": null,
+        "token": 248046
+      },
+      {
+        "bias": null,
+        "token": 248063
+      },
+      {
+        "bias": null,
+        "token": 248064
+      },
+      {
+        "bias": null,
+        "token": 248065
+      }
+    ],
+    "n_probs": 0,
+    "min_keep": 0,
+    "grammar": "",
+    "grammar_lazy": false,
+    "grammar_triggers": [],
+    "preserved_tokens": [],
+    "chat_format": "Content-only",
+    "reasoning_format": "deepseek",
+    "reasoning_in_content": false,
+    "generation_prompt": "",
+    "samplers": [
+      "penalties",
+      "dry",
+      "top_n_sigma",
+      "top_k",
+      "typ_p",
+      "top_p",
+      "min_p",
+      "xtc",
+      "temperature"
+    ],
+    "speculative.types": "none,none",
+    "timings_per_token": true,
+    "post_sampling_probs": false,
+    "backend_sampling": false,
+    "lora": []
+  },
+  "prompt": "<|im_start|>user\nУникальный документ для теста 41383ad060c5dee6e04a890f2d1facde4ebf4a220590e161389fe0f62580ffde. Прочитай журнал технических измерений. Каждая строка описывает отдельное наблюдение. После журнала ответь на вопрос.\nЗапись 00000: код 59c1534d0e0b4a; измерение 258; датчик 14; состояние активен.\nЗапись 00001: код b4c910f270f807; измерение 298; датчик 3; состояние проверка.\nЗапись 00002: код ccf27d8be587e0; измерение 34; датчик 6; состояние норма.\nЗапись 00003: код fdb72bb12d3386; измерение 483; датчик 2; состояние активен.\nЗапись 00004: код 658fcbe0198f93; измерение 569; датчик 0; состояние проверка.\nЗапись 00005: код b2a7adc0c6caed; измерение 31; датчик 4; состояние ожидание.\nЗапись 00006: код 1bcd9780a87877; измерение 434; датчик 0; состояние проверка.\nЗапись 00007: код 793665558dfabd; измерение 978; датчик 6; состояние ожидание.\nЗапись 00008: код 79f1bed663d4c1; измерение 351; датчик 12; состояние ожидание.\nЗапись 00009: код 951d39202d67bd; измерение 742; датчик 9; состояние ожидание.\nЗапись 00010: код 5821a34eafeae8; измерение 243; датчик 0; состояние норма.\nЗапись 00011: код d57aca0b54d91a; измерение 320; датчик 8; состояние активен.\nЗапись 00012: код 90ce44c8c098db; измерение 987; датчик 8; состояние проверка.\nЗапись 00013: код 1c2e92c6973f55; измерение 284; датчик 3; состояние ожидание.\nЗапись 00014: код c3458892d7ce89; измерение 86; датчик 16; состояние ожидание.\nЗапись 00015: код ff734277a6df28; измерение 820; датчик 15; состояние норма.\nЗапись 00016: код 89204fd42680cd; измерение 71чик 7; состояние активен.\nЗапись 00442: код 1a5231a11f613e; измерение 60; датчик 15; состояние активен.\nЗапись 00443: код 3604d912a95cd9; измерение 371; датчик 6; состояние ожидание.\nЗапись 00444: код 9f7dd4acb1429f; измерение 608; датчик 16; состояние проверка.\nЗапись 00445: код d807d923291c35; измерение 799; датчик 2; состояние ожидание.\n\nВОПРОС: Как организовать проверку надёжности многопроцессорной вычислительной системы после загрузки большой языковой модели? Дай подробный ответ, нумеруй этапы, для каждого этапа укажи наблюдаемые признаки и действия при сбое. Напиши не менее 25 этапов; не завершай ответ раньше.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+  "has_new_line": true,
+  "truncated": false,
+  "stop_type": "limit",
+  "stopping_word": "",
+  "tokens_cached": 1151,
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1024,
+    "prompt_ms": 5208.939,
+    "prompt_per_token_ms": 5.0868544921875,
+    "prompt_per_second": 196.58513950729696,
+    "predicted_n": 128,
+    "predicted_ms": 4230.182,
+    "predicted_per_token_ms": 33.30851968503937,
+    "predicted_per_second": 30.022348920211943
+  }
+}

@@ -1,0 +1,460 @@
+[
+  {
+    "name": "Qwen3.8-27B-Q8_0",
+    "port": 8083,
+    "gpus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "load_status": "OK",
+    "load_s": 50.143,
+    "status": "OK",
+    "error": "",
+    "tests": [
+      {
+        "target_tokens": 512,
+        "prompt_tokens_sent": 512,
+        "prompt_n": 512,
+        "cache_n": 0,
+        "prefill_ms": 4794.745,
+        "prefill_tps": 106.78357243190202,
+        "decode_tokens": 128,
+        "decode_ms": 7721.461,
+        "decode_tps": 16.447664502870637,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 12.529626578994794
+      },
+      {
+        "target_tokens": 1024,
+        "prompt_tokens_sent": 1024,
+        "prompt_n": 1024,
+        "cache_n": 0,
+        "prefill_ms": 6163.753,
+        "prefill_tps": 166.13254943862935,
+        "decode_tokens": 128,
+        "decode_ms": 10368.255,
+        "decode_tps": 12.248927133833032,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 17.74897925600817
+      },
+      {
+        "target_tokens": 2048,
+        "prompt_tokens_sent": 2048,
+        "prompt_n": 2048,
+        "cache_n": 0,
+        "prefill_ms": 9536.554,
+        "prefill_tps": 214.75262448049892,
+        "decode_tokens": 128,
+        "decode_ms": 8182.646,
+        "decode_tps": 15.520651877155629,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 19.120150476010167
+      },
+      {
+        "target_tokens": 8192,
+        "prompt_tokens_sent": 8192,
+        "prompt_n": 8192,
+        "cache_n": 0,
+        "prefill_ms": 30956.849,
+        "prefill_tps": 264.62641595079657,
+        "decode_tokens": 128,
+        "decode_ms": 9484.146,
+        "decode_tps": 13.390768130309255,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 42.22301633299503
+      }
+    ],
+    "pid": 99691,
+    "gpu_after_load": {
+      "0": {
+        "uuid": "GPU-39413b14-ad7b-d804-7f48-ceda56472dd1",
+        "used_mib": "7080",
+        "total_mib": "8192"
+      },
+      "1": {
+        "uuid": "GPU-43138260-407f-2896-0195-0589745e4285",
+        "used_mib": "8001",
+        "total_mib": "8192"
+      },
+      "2": {
+        "uuid": "GPU-f2c7de53-18e3-3c12-4411-4bf89a3b4091",
+        "used_mib": "7588",
+        "total_mib": "8192"
+      },
+      "3": {
+        "uuid": "GPU-36ff2df4-9191-f87b-bd97-932af51c7842",
+        "used_mib": "7992",
+        "total_mib": "8192"
+      },
+      "4": {
+        "uuid": "GPU-8baf56fd-6ea0-7970-537b-dc06c41daab6",
+        "used_mib": "7992",
+        "total_mib": "8192"
+      },
+      "5": {
+        "uuid": "GPU-4fc768ce-062b-c3b8-d8b3-53978c3bd028",
+        "used_mib": "7820",
+        "total_mib": "8192"
+      }
+    }
+  },
+  {
+    "name": "Qwen3.8-27B-Q4_K_M",
+    "port": 8084,
+    "gpus": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "load_status": "OK",
+    "load_s": 36.105,
+    "status": "OK",
+    "error": "",
+    "tests": [
+      {
+        "target_tokens": 512,
+        "prompt_tokens_sent": 512,
+        "prompt_n": 512,
+        "cache_n": 0,
+        "prefill_ms": 5029.863,
+        "prefill_tps": 101.79203688052736,
+        "decode_tokens": 128,
+        "decode_ms": 7319.025,
+        "decode_tps": 17.35203801052736,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 12.366730221008766
+      },
+      {
+        "target_tokens": 1024,
+        "prompt_tokens_sent": 1024,
+        "prompt_n": 1024,
+        "cache_n": 0,
+        "prefill_ms": 6689.861,
+        "prefill_tps": 153.06745536267496,
+        "decode_tokens": 128,
+        "decode_ms": 7329.874,
+        "decode_tps": 17.326355132434745,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 15.235641831997782
+      },
+      {
+        "target_tokens": 2048,
+        "prompt_tokens_sent": 2048,
+        "prompt_n": 2048,
+        "cache_n": 0,
+        "prefill_ms": 10499.544,
+        "prefill_tps": 195.0560900549586,
+        "decode_tokens": 128,
+        "decode_ms": 7541.275,
+        "decode_tps": 16.840653603004796,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 19.4442582269985
+      },
+      {
+        "target_tokens": 8192,
+        "prompt_tokens_sent": 8192,
+        "prompt_n": 8192,
+        "cache_n": 0,
+        "prefill_ms": 35306.362,
+        "prefill_tps": 232.02617137387307,
+        "decode_tokens": 128,
+        "decode_ms": 7976.661,
+        "decode_tps": 15.92144883680026,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 45.06855801799975
+      }
+    ],
+    "pid": 99744,
+    "gpu_after_load": {
+      "7": {
+        "uuid": "GPU-84ba002a-89ac-7a76-8a42-681196e18fce",
+        "used_mib": "6996",
+        "total_mib": "8192"
+      },
+      "8": {
+        "uuid": "GPU-b7892ece-3762-04d0-4bbe-753c094ea129",
+        "used_mib": "6412",
+        "total_mib": "8192"
+      },
+      "9": {
+        "uuid": "GPU-c65ebf4d-e1fe-ed3b-baeb-7d661c6b0d06",
+        "used_mib": "7636",
+        "total_mib": "8192"
+      },
+      "10": {
+        "uuid": "GPU-abff39cd-0aae-73c3-27c6-869b4d037314",
+        "used_mib": "6378",
+        "total_mib": "8192"
+      },
+      "11": {
+        "uuid": "GPU-a1fe1d5f-8245-9b8e-0a83-2389ff46a7f9",
+        "used_mib": "7800",
+        "total_mib": "8192"
+      }
+    }
+  },
+  {
+    "name": "Qwen3.8-Flash-Next-UD-Q4_K_XL",
+    "port": 8085,
+    "gpus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "load_status": "OK",
+    "load_s": 148.186,
+    "status": "OK",
+    "error": "",
+    "tests": [
+      {
+        "target_tokens": 512,
+        "prompt_tokens_sent": 512,
+        "prompt_n": 512,
+        "cache_n": 0,
+        "prefill_ms": 15289.866,
+        "prefill_tps": 33.48623199183041,
+        "decode_tokens": 128,
+        "decode_ms": 11063.547,
+        "decode_tps": 11.479139556238158,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 26.373757319001015
+      },
+      {
+        "target_tokens": 1024,
+        "prompt_tokens_sent": 1024,
+        "prompt_n": 1024,
+        "cache_n": 0,
+        "prefill_ms": 28473.658,
+        "prefill_tps": 35.96306452792262,
+        "decode_tokens": 128,
+        "decode_ms": 11157.218,
+        "decode_tps": 11.382765847185203,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 40.47825453199039
+      },
+      {
+        "target_tokens": 2048,
+        "prompt_tokens_sent": 2048,
+        "prompt_n": 2048,
+        "cache_n": 0,
+        "prefill_ms": 56827.31,
+        "prefill_tps": 36.03901011679068,
+        "decode_tokens": 128,
+        "decode_ms": 11091.952,
+        "decode_tps": 11.449743020885773,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 68.84528529000818
+      },
+      {
+        "target_tokens": 8192,
+        "prompt_tokens_sent": 8192,
+        "prompt_n": 8192,
+        "cache_n": 0,
+        "prefill_ms": 241307.63,
+        "prefill_tps": 33.948367069868446,
+        "decode_tokens": 128,
+        "decode_ms": 11876.557,
+        "decode_tps": 10.69333477707386,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 254.28821787799825
+      }
+    ],
+    "pid": 99789,
+    "gpu_after_load": {
+      "0": {
+        "uuid": "GPU-39413b14-ad7b-d804-7f48-ceda56472dd1",
+        "used_mib": "6830",
+        "total_mib": "8192"
+      },
+      "1": {
+        "uuid": "GPU-43138260-407f-2896-0195-0589745e4285",
+        "used_mib": "7979",
+        "total_mib": "8192"
+      },
+      "2": {
+        "uuid": "GPU-f2c7de53-18e3-3c12-4411-4bf89a3b4091",
+        "used_mib": "7724",
+        "total_mib": "8192"
+      },
+      "3": {
+        "uuid": "GPU-36ff2df4-9191-f87b-bd97-932af51c7842",
+        "used_mib": "7946",
+        "total_mib": "8192"
+      },
+      "4": {
+        "uuid": "GPU-8baf56fd-6ea0-7970-537b-dc06c41daab6",
+        "used_mib": "7720",
+        "total_mib": "8192"
+      },
+      "5": {
+        "uuid": "GPU-4fc768ce-062b-c3b8-d8b3-53978c3bd028",
+        "used_mib": "7724",
+        "total_mib": "8192"
+      },
+      "6": {
+        "uuid": "GPU-8b45d3ab-e8cb-3a1f-21cf-e11597e03530",
+        "used_mib": "7946",
+        "total_mib": "8192"
+      },
+      "7": {
+        "uuid": "GPU-84ba002a-89ac-7a76-8a42-681196e18fce",
+        "used_mib": "7970",
+        "total_mib": "8192"
+      },
+      "8": {
+        "uuid": "GPU-b7892ece-3762-04d0-4bbe-753c094ea129",
+        "used_mib": "7724",
+        "total_mib": "8192"
+      },
+      "9": {
+        "uuid": "GPU-c65ebf4d-e1fe-ed3b-baeb-7d661c6b0d06",
+        "used_mib": "7946",
+        "total_mib": "8192"
+      },
+      "10": {
+        "uuid": "GPU-abff39cd-0aae-73c3-27c6-869b4d037314",
+        "used_mib": "7720",
+        "total_mib": "8192"
+      },
+      "11": {
+        "uuid": "GPU-a1fe1d5f-8245-9b8e-0a83-2389ff46a7f9",
+        "used_mib": "4718",
+        "total_mib": "8192"
+      }
+    }
+  },
+  {
+    "name": "Qwen3.6-35B-A3B-abliterated-v4-Q8_0",
+    "port": 8086,
+    "gpus": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "load_status": "OK",
+    "load_s": 64.098,
+    "status": "OK",
+    "error": "",
+    "tests": [
+      {
+        "target_tokens": 512,
+        "prompt_tokens_sent": 512,
+        "prompt_n": 512,
+        "cache_n": 0,
+        "prefill_ms": 2242.789,
+        "prefill_tps": 228.2871906363015,
+        "decode_tokens": 128,
+        "decode_ms": 4269.565,
+        "decode_tps": 29.74541902980749,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 6.5361565289931605
+      },
+      {
+        "target_tokens": 1024,
+        "prompt_tokens_sent": 1024,
+        "prompt_n": 1024,
+        "cache_n": 0,
+        "prefill_ms": 2422.663,
+        "prefill_tps": 422.6753782923997,
+        "decode_tokens": 128,
+        "decode_ms": 4232.78,
+        "decode_tps": 30.00392177245215,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 7.143864697005483
+      },
+      {
+        "target_tokens": 2048,
+        "prompt_tokens_sent": 2048,
+        "prompt_n": 2048,
+        "cache_n": 0,
+        "prefill_ms": 4017.449,
+        "prefill_tps": 509.77622864658645,
+        "decode_tokens": 128,
+        "decode_ms": 4212.814,
+        "decode_tps": 30.146120858884345,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 8.769337821009685
+      },
+      {
+        "target_tokens": 8192,
+        "prompt_tokens_sent": 8192,
+        "prompt_n": 8192,
+        "cache_n": 0,
+        "prefill_ms": 13517.283,
+        "prefill_tps": 606.0389502831301,
+        "decode_tokens": 128,
+        "decode_ms": 4358.519,
+        "decode_tps": 29.138338045560886,
+        "test_status": "OK",
+        "error": "",
+        "wall_s": 18.53149097399728
+      }
+    ],
+    "pid": 99879,
+    "gpu_after_load": {
+      "0": {
+        "uuid": "GPU-39413b14-ad7b-d804-7f48-ceda56472dd1",
+        "used_mib": "5830",
+        "total_mib": "8192"
+      },
+      "1": {
+        "uuid": "GPU-43138260-407f-2896-0195-0589745e4285",
+        "used_mib": "4117",
+        "total_mib": "8192"
+      },
+      "2": {
+        "uuid": "GPU-f2c7de53-18e3-3c12-4411-4bf89a3b4091",
+        "used_mib": "8042",
+        "total_mib": "8192"
+      },
+      "3": {
+        "uuid": "GPU-36ff2df4-9191-f87b-bd97-932af51c7842",
+        "used_mib": "8042",
+        "total_mib": "8192"
+      },
+      "4": {
+        "uuid": "GPU-8baf56fd-6ea0-7970-537b-dc06c41daab6",
+        "used_mib": "8042",
+        "total_mib": "8192"
+      },
+      "5": {
+        "uuid": "GPU-4fc768ce-062b-c3b8-d8b3-53978c3bd028",
+        "used_mib": "7700",
+        "total_mib": "8192"
+      }
+    }
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "index": 0,
+  "content": "Thinking Process:\n\n1.  **Analyze the Request:**\n    *   Input: A unique document identifier (`aa2e148b545923c9bfe36d794e885911e5c7714552c22c5bc5fb4bdb103bd8da`), followed by a \"Journal of Technical Measurements\" (19 records).\n    *   Task: Read the journal, then answer a specific question.\n    *   Question: \"How to organize the reliability check of a multip",
+  "tokens": [],
+  "id_slot": 0,
+  "stop": true,
+  "model": "/mnt/pm981/models/Qwen3.6-35B-A3B-abliterated-v4-Q8_0.gguf",
+  "tokens_predicted": 128,
+  "tokens_evaluated": 1024,
+  "generation_settings": {
+    "seed": 9110,
+    "temperature": 0.699999988079071,
+    "dynatemp_range": 0.0,
+    "dynatemp_exponent": 1.0,
+    "top_k": 20,
+    "top_p": 0.949999988079071,
+    "min_p": 0.05000000074505806,
+    "top_n_sigma": -1.0,
+    "xtc_probability": 0.0,
+    "xtc_threshold": 0.10000000149011612,
+    "typical_p": 1.0,
+    "repeat_last_n": 64,
+    "repeat_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "dry_multiplier": 0.0,
+    "dry_base": 1.75,
+    "dry_allowed_length": 2,
+    "dry_penalty_last_n": 64,
+    "dry_sequence_breakers": [
+      "\n",
+      ":",
+      "\"",
+      "*"
+    ],
+    "mirostat": 0,
+    "mirostat_tau": 5.0,
+    "mirostat_eta": 0.10000000149011612,
+    "adaptive_target": -1.0,
+    "adaptive_decay": 0.8999999761581421,
+    "stop": [],
+    "max_tokens": 128,
+    "n_predict": 128,
+    "n_keep": 0,
+    "n_discard": 0,
+    "ignore_eos": true,
+    "stream": false,
+    "logit_bias": [
+      {
+        "bias": null,
+        "token": 248044
+      },
+      {
+        "bias": null,
+        "token": 248046
+      },
+      {
+        "bias": null,
+        "token": 248063
+      },
+      {
+        "bias": null,
+        "token": 248064
+      },
+      {
+        "bias": null,
+        "token": 248065
+      }
+    ],
+    "n_probs": 0,
+    "min_keep": 0,
+    "grammar": "",
+    "grammar_lazy": false,
+    "grammar_triggers": [],
+    "preserved_tokens": [],
+    "chat_format": "Content-only",
+    "reasoning_format": "deepseek",
+    "reasoning_in_content": false,
+    "generation_prompt": "",
+    "samplers": [
+      "penalties",
+      "dry",
+      "top_n_sigma",
+      "top_k",
+      "typ_p",
+      "top_p",
+      "min_p",
+      "xtc",
+      "temperature"
+    ],
+    "speculative.types": "none,none",
+    "timings_per_token": true,
+    "post_sampling_probs": false,
+    "backend_sampling": false,
+    "lora": []
+  },
+  "prompt": "<|im_start|>user\nУникальный документ для теста aa2e148b545923c9bfe36d794e885911e5c7714552c22c5bc5fb4bdb103bd8da. Прочитай журнал технических измерений. Каждая строка описывает отдельное наблюдение. После журнала ответь на вопрос.\nЗапись 00000: код 53c4268f55e55d; измерение 345; датчик 0; состояние ожидание.\nЗапись 00001: код 52a44726b8388a; измерение 569; датчик 2; состояние активен.\nЗапись 00002: код c9922f969882cc; измерение 723; датчик 10; состояние норма.\nЗапись 00003: код c3a9481d7cdf70; измерение 910; датчик 6; состояние норма.\nЗапись 00004: код 94ad7d959341c8; измерение 968; датчик 4; состояние норма.\nЗапись 00005: код 42d6ef0fbc9de4; измерение 895; датчик 2; состояние норма.\nЗапись 00006: код 0872887f6ad715; измерение 242; датчик 13; состояние ожидание.\nЗапись 00007: код 8e8bce2bee10dc; измерение 517; датчик 1; состояние норма.\nЗапись 00008: код 29df369799061b; измерение 680; датчик 9; состояние проверка.\nЗапись 00009: код aaed465e369cda; измерение 950; датчик 13; состояние активен.\nЗапись 00010: код 7979feb6755f2a; измерение 180; датчик 14; состояние активен.\nЗапись 00011: код aa8fa39bd8891d; измерение 643; датчик 10; состояние ожидание.\nЗапись 00012: код 37bb030c000881; измерение 874; датчик 3; состояние ожидание.\nЗапись 00013: код 4fdc002f258ed4; измерение 878; датчик 6; состояние норма.\nЗапись 00014: код 1e326e08f7661a; измерение 618; датчик 12; состояние активен.\nЗапись 00015: код 3b4dc75acad7f9; измерение 359; датчик 3; состояние ожидание.\nЗапись 00016: код 00782e4c6817; датчик 5; состояние активен.\nЗапись 00442: код cc3652822fc8fd; измерение 811; датчик 1; состояние ожидание.\nЗапись 00443: код d8e589c4e9b540; измерение 819; датчик 15; состояние норма.\nЗапись 00444: код 761424b6cd6d8a; измерение 306; датчик 9; состояние активен.\nЗапись 00445: код 879fccdc28d6f1; измерение 913; датчик 6; состояние ожидание.\n\nВОПРОС: Как организовать проверку надёжности многопроцессорной вычислительной системы после загрузки большой языковой модели? Дай подробный ответ, нумеруй этапы, для каждого этапа укажи наблюдаемые признаки и действия при сбое. Напиши не менее 25 этапов; не завершай ответ раньше.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+  "has_new_line": true,
+  "truncated": false,
+  "stop_type": "limit",
+  "stopping_word": "",
+  "tokens_cached": 1151,
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1024,
+    "prompt_ms": 2418.401,
+    "prompt_per_token_ms": 2.3617197265625,
+    "prompt_per_second": 423.4202681854664,
+    "predicted_n": 128,
+    "predicted_ms": 4264.003,
+    "predicted_per_token_ms": 33.57482677165354,
+    "predicted_per_second": 29.784219194967736
+  }
+}

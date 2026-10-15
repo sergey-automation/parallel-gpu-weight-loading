@@ -1,0 +1,114 @@
+{
+  "index": 0,
+  "content": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Document ID/Hash:** `d4e9505242e037b7ae4718a105d2aaffee1d76a1d0f188d32d0339902f8ce76f` (Unique document identifier, likely for tracking/context, but not directly used in answering).\n   - **Task:** Read the journal of technical measurements. Each line describes an observation. After the journal, answer the",
+  "tokens": [],
+  "id_slot": 0,
+  "stop": true,
+  "model": "/mnt/pm981/models/Qwen3.6-35B-A3B-abliterated-v4-Q8_0.gguf",
+  "tokens_predicted": 128,
+  "tokens_evaluated": 1024,
+  "generation_settings": {
+    "seed": 9110,
+    "temperature": 0.699999988079071,
+    "dynatemp_range": 0.0,
+    "dynatemp_exponent": 1.0,
+    "top_k": 20,
+    "top_p": 0.949999988079071,
+    "min_p": 0.05000000074505806,
+    "top_n_sigma": -1.0,
+    "xtc_probability": 0.0,
+    "xtc_threshold": 0.10000000149011612,
+    "typical_p": 1.0,
+    "repeat_last_n": 64,
+    "repeat_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "dry_multiplier": 0.0,
+    "dry_base": 1.75,
+    "dry_allowed_length": 2,
+    "dry_penalty_last_n": 64,
+    "dry_sequence_breakers": [
+      "\n",
+      ":",
+      "\"",
+      "*"
+    ],
+    "mirostat": 0,
+    "mirostat_tau": 5.0,
+    "mirostat_eta": 0.10000000149011612,
+    "adaptive_target": -1.0,
+    "adaptive_decay": 0.8999999761581421,
+    "stop": [],
+    "max_tokens": 128,
+    "n_predict": 128,
+    "n_keep": 0,
+    "n_discard": 0,
+    "ignore_eos": true,
+    "stream": false,
+    "logit_bias": [
+      {
+        "bias": null,
+        "token": 248044
+      },
+      {
+        "bias": null,
+        "token": 248046
+      },
+      {
+        "bias": null,
+        "token": 248063
+      },
+      {
+        "bias": null,
+        "token": 248064
+      },
+      {
+        "bias": null,
+        "token": 248065
+      }
+    ],
+    "n_probs": 0,
+    "min_keep": 0,
+    "grammar": "",
+    "grammar_lazy": false,
+    "grammar_triggers": [],
+    "preserved_tokens": [],
+    "chat_format": "Content-only",
+    "reasoning_format": "deepseek",
+    "reasoning_in_content": false,
+    "generation_prompt": "",
+    "samplers": [
+      "penalties",
+      "dry",
+      "top_n_sigma",
+      "top_k",
+      "typ_p",
+      "top_p",
+      "min_p",
+      "xtc",
+      "temperature"
+    ],
+    "speculative.types": "none,none",
+    "timings_per_token": true,
+    "post_sampling_probs": false,
+    "backend_sampling": false,
+    "lora": []
+  },
+  "prompt": "<|im_start|>user\nУникальный документ для теста d4e9505242e037b7ae4718a105d2aaffee1d76a1d0f188d32d0339902f8ce76f. Прочитай журнал технических измерений. Каждая строка описывает отдельное наблюдение. После журнала ответь на вопрос.\nЗапись 00000: код 47fe5d5d818b7d; измерение 939; датчик 3; состояние ожидание.\nЗапись 00001: код f5629b320e556c; измерение 613; датчик 7; состояние норма.\nЗапись 00002: код 2f99db97f1a531; измерение 736; датчик 5; состояние ожидание.\nЗапись 00003: код 35726749ff0df8; измерение 310; датчик 9; состояние норма.\nЗапись 00004: код 565b511b89211a; измерение 245; датчик 5; состояние активен.\nЗапись 00005: код 94c2feee7eba56; измерение 578; датчик 8; состояние активен.\nЗапись 00006: код 9146cbe714e391; измерение 351; датчик 4; состояние ожидание.\nЗапись 00007: код 63b43f6bae0553; измерение 818; датчик 14; состояние проверка.\nЗапись 00008: код a119586d5a8c14; измерение 25; датчик 4; состояние норма.\nЗапись 00009: код 807803e4690cb1; измерение 24; датчик 8; состояние ожидание.\nЗапись 00010: код fd005ce6a4dd13; измерение 456; датчик 10; состояние проверка.\nЗапись 00011: код c4c86e04ea6e89; измерение 429; датчик 5; состояние ожидание.\nЗапись 00012: код ea33cc901bf492; измерение 337; датчик 13; состояние активен.\nЗапись 00013: код c404f839795ca7; измерение 882; датчик 1; состояние проверка.\nЗапись 00014: код 3fc71066e62dc7; измерение 245; датчик 4; состояние проверка.\nЗапись 00015: код d3baf57ca4bddf; измерение 670; датчик 16; состояние проверка.\nЗапись 00016: код c993cdb38aaa6f; измер 917; датчик 1; состояние норма.\nЗапись 00442: код acfb1b4eb27378; измерение 497; датчик 6; состояние норма.\nЗапись 00443: код 625cb14d6f1192; измерение 453; датчик 4; состояние активен.\nЗапись 00444: код c2985d21a47b06; измерение 646; датчик 0; состояние активен.\nЗапись 00445: код 6ae66ac8677c23; измерение 849; датчик 3; состояние проверка.\n\nВОПРОС: Как организовать проверку надёжности многопроцессорной вычислительной системы после загрузки большой языковой модели? Дай подробный ответ, нумеруй этапы, для каждого этапа укажи наблюдаемые признаки и действия при сбое. Напиши не менее 25 этапов; не завершай ответ раньше.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+  "has_new_line": true,
+  "truncated": false,
+  "stop_type": "limit",
+  "stopping_word": "",
+  "tokens_cached": 1151,
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 1024,
+    "prompt_ms": 2422.663,
+    "prompt_per_token_ms": 2.3658818359375,
+    "prompt_per_second": 422.6753782923997,
+    "predicted_n": 128,
+    "predicted_ms": 4232.78,
+    "predicted_per_token_ms": 33.328976377952756,
+    "predicted_per_second": 30.00392177245215
+  }
+}

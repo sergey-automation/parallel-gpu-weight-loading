@@ -1,0 +1,6 @@
+Thinking Process:
+
+1.  **Analyze the Request:**
+    *   Input: A unique document identifier (`aa2e148b545923c9bfe36d794e885911e5c7714552c22c5bc5fb4bdb103bd8da`), followed by a "Journal of Technical Measurements" (19 records).
+    *   Task: Read the journal, then answer a specific question.
+    *   Question: "How to organize the reliability check of a multip

@@ -1,0 +1,10 @@
+Thinking Process:
+
+1.  **Analyze the Request:**
+    *   Input: A unique document identifier (hash), a journal of technical measurements (18 entries), and a specific question.
+    *   Task: Read the journal, then answer the question.
+    *   Question: "How to organize the reliability check of a multiprocessor computational system after loading a large language model?"
+    *   Requirements:
+        *   Provide a detailed answer.
+        *   Number the stages (1, 2, 3...).
+        *   For each stage, specify observable signs and actions in

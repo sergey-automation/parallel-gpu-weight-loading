@@ -1,0 +1,114 @@
+{
+  "index": 0,
+  "content": "We need answer in Russian. User asks: unique document for test hash. Read technical measurement journal. Each line observation. After journal answer question.\n\nQuestion: How to organize reliability check of multiprocessor computing system after loading large language model? Give detailed answer, number stages, for each stage indicate observed signs and actions on failure. Write at least 25 stages; do not finish answer early.\n\nWe need produce final answer with at least 25 stages. Need likely not use journal? It says read journal, answer question. Could be a prompt injection? It includes measurements but question unrelated. We can mention journal? Need",
+  "tokens": [],
+  "id_slot": 0,
+  "stop": true,
+  "model": "Qwen3.8-27B-Q4",
+  "tokens_predicted": 128,
+  "tokens_evaluated": 2048,
+  "generation_settings": {
+    "seed": 10132,
+    "temperature": 0.699999988079071,
+    "dynatemp_range": 0.0,
+    "dynatemp_exponent": 1.0,
+    "top_k": 20,
+    "top_p": 0.949999988079071,
+    "min_p": 0.05000000074505806,
+    "top_n_sigma": -1.0,
+    "xtc_probability": 0.0,
+    "xtc_threshold": 0.10000000149011612,
+    "typical_p": 1.0,
+    "repeat_last_n": 64,
+    "repeat_penalty": 1.0,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.0,
+    "dry_multiplier": 0.0,
+    "dry_base": 1.75,
+    "dry_allowed_length": 2,
+    "dry_penalty_last_n": 64,
+    "dry_sequence_breakers": [
+      "\n",
+      ":",
+      "\"",
+      "*"
+    ],
+    "mirostat": 0,
+    "mirostat_tau": 5.0,
+    "mirostat_eta": 0.10000000149011612,
+    "adaptive_target": -1.0,
+    "adaptive_decay": 0.8999999761581421,
+    "stop": [],
+    "max_tokens": 128,
+    "n_predict": 128,
+    "n_keep": 0,
+    "n_discard": 0,
+    "ignore_eos": true,
+    "stream": false,
+    "logit_bias": [
+      {
+        "bias": null,
+        "token": 248044
+      },
+      {
+        "bias": null,
+        "token": 248046
+      },
+      {
+        "bias": null,
+        "token": 248063
+      },
+      {
+        "bias": null,
+        "token": 248064
+      },
+      {
+        "bias": null,
+        "token": 248065
+      }
+    ],
+    "n_probs": 0,
+    "min_keep": 0,
+    "grammar": "",
+    "grammar_lazy": false,
+    "grammar_triggers": [],
+    "preserved_tokens": [],
+    "chat_format": "Content-only",
+    "reasoning_format": "deepseek",
+    "reasoning_in_content": false,
+    "generation_prompt": "",
+    "samplers": [
+      "penalties",
+      "dry",
+      "top_n_sigma",
+      "top_k",
+      "typ_p",
+      "top_p",
+      "min_p",
+      "xtc",
+      "temperature"
+    ],
+    "speculative.types": "none,none",
+    "timings_per_token": true,
+    "post_sampling_probs": false,
+    "backend_sampling": false,
+    "lora": []
+  },
+  "prompt": "<|im_start|>system\nReasoning effort is set to xhigh. Please think carefully through the task, validate key assumptions, consider plausible alternatives, and prioritize correctness, consistency, and clarity in the final answer.<|im_end|>\n<|im_start|>user\nУникальный документ для теста 9095ac27ac3014dbcaefdb8cc79876192eaf0599845621b9bca35805975d3655. Прочитай журнал технических измерений. Каждая строка описывает отдельное наблюдение. После журнала ответь на вопрос.\nЗапись 00000: код 558099bfa37452; измерение 303; датчик 0; состояние активен.\nЗапись 00001: код 8576bb7ad5b3f7; измерение 607; датчик 9; состояние проверка.\nЗапись 00002: код e2c5b0a71cb20f; измерение 632; датчик 1; состояние проверка.\nЗапись 00003: код f002aa806be39c; измерение 169; датчик 10; состояние норма.\nЗапись 00004: код 1a01df18209af1; измерение 172; датчик 4; состояние ожидание.\nЗапись 00005: код 6cc3636dad3a4e; измерение 9; датчик 4; состояние активен.\nЗапись 00006: код 7793a65b8f766a; измерение 831; датчик 6; состояние активен.\nЗапись 00007: код b472aefe583250; измерение 918; датчик 5; состояние норма.\nЗапись 00008: код fb0a3b47380715; измерение 54; датчик 16; состояние ожидание.\nЗапись 00009: код 95d59360beb3a6; измерение 873; датчик 1; состояние активен.\nЗапись 00010: код 6862e8209e0d6a; измерение 542; датчик 12; состояние активен.\nЗапись 00011: код 05a8578a2140a4; измерение 656; датчик 13; состояние норма.\nЗапись 00012: код 0c8cc08330a5c6; измерение 237; датчик 2; состояние активен.\nЗапись 00013: код 6f0d0bd947b24c; измерение 780; датчик 14; состояние норма.\nЗапись 00014: код 05a2b871ddb57e; измерение 767; датчик 6; состояние активен.\nЗапись 00015: код 9723da0439e627; измерение 203; датчик 3; состояние проверка.\nЗапись 00016: код 654e0bd37db3a4; измерение 424; датчик 2; состояние норма.\nЗапись 00017: код ddc2d2de36de52; измерение 978; датчик 15; состояние активен.\nЗапись 00018: код 10cca2e2d0ba33; измерение 790; датчик 16; состояние проверка.\nЗапись 00019: код c279369ff2349d; измерение 811; датчик 10; состояние ожидание.\nЗапись 00020: код e4d0a74b6ff142; измерение 661; датчик 8; состояние активен.\nЗапись 00021: код 1f4dc65034043a; измерение 466; датчик 7; состояние активен.\nЗапись 00022: код 611c3fe745d50b; измерение 218; датчик 15; состояние проверка.\nЗапись 00023: код a866bafc5f6d8a; измерение 756; датчик 13; состояние активен.\nЗапись 00024: код 4f3335260b553e; измерение 310; датчик 5; состояние активен.\nЗапись 00025: код 4dae2245fdbe2c; измерение 343; датчик 8; состояние норма.\nЗапись 00026: код d949ced9035604; измерение 279; датчик 7; состояние норма.\nЗапись 00027: код ba45ad661910f4; измерение 749; датчик 16; состояние норма.\nЗапись 00028: код c3aabb97e0e0e2; измерение 357; датчик 0; состояние активен.\nЗапись 00029: код e6f008d2b9230d; измерение 119; датчик 3; состояние ожидание.\nЗапись 00030: код 11022d4989b3e3; измерение 954; датчик 0; состояние проверка.\nЗапись 00031: код 23cd2403fd385f; измерение 653; датчик 3; состояние проверка.\nЗапись 00032: код 01d1c6145d23c2; измерение 848; датчик 2; состояние активен.\nЗапись 00033: код 287fac9c0f19e6; измерение 286; датчик 0; состояние активен.\nЗапись 00034: код 35a3c3aa81c64c; измерение 175; датчик 15; состояние норма.\nЗапись 00035: код b2f94086b1e5cf; измерение 666; датчик 14; состояние проверка.\nЗапись 00036: код f63a04d139e5ff; измерение 780; датчик 4; состояние проверка.\nЗапись 00037: код a7e11ff45c5707; измерение 667; датчик 3; состояние проверка.\nЗапись 00038: код 06ebdcd508553b; измерение 868; датчик 10; состояние проверка.\nЗапись 00039: код 497fc6ec49fc1c; измерение 950; датчик 1; состояние норма.\nЗапись 00040: код eefcfbee34b7a29; датчик 12; состояние проверка.\nЗапись 00588: код fda922165f852c; измерение 466; датчик 2; состояние норма.\nЗапись 00589: код 0beb88dd198710; измерение 687; датчик 14; состояние норма.\nЗапись 00590: код c1c967e062edf9; измерение 682; датчик 13; состояние ожидание.\nЗапись 00591: код 8a41039913db86; измерение 146; датчик 0; состояние активен.\n\nВОПРОС: Как организовать проверку надёжности многопроцессорной вычислительной системы после загрузки большой языковой модели? Дай подробный ответ, нумеруй этапы, для каждого этапа укажи наблюдаемые признаки и действия при сбое. Напиши не менее 25 этапов; не завершай ответ раньше.<|im_end|>\n<|im_start|>assistant\n<think>\n",
+  "has_new_line": true,
+  "truncated": false,
+  "stop_type": "limit",
+  "stopping_word": "",
+  "tokens_cached": 2175,
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 2048,
+    "prompt_ms": 22787.169,
+    "prompt_per_token_ms": 11.12654736328125,
+    "prompt_per_second": 89.87513982101066,
+    "predicted_n": 128,
+    "predicted_ms": 14388.642,
+    "predicted_per_token_ms": 113.2963937007874,
+    "predicted_per_second": 8.826406272391793
+  }
+}

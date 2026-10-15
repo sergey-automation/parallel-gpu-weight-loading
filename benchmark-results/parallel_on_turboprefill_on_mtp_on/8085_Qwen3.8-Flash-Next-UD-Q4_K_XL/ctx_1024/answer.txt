@@ -1,0 +1,3 @@
+We need answer user in Russian. Need analyze request. User: unique document for test hash. Read technical measurements journal. Each line observation. After journal answer question. Then lists records. Question: "Как организовать проверку надёжности многопроцессорной вычислительной системы после загрузки большой языковой модели? Дай подробный ответ, нумеруй этапы, для каждого этапа укажи наблюдаемые признаки и действия при сбое. Напиши не менее 25 этапов; не завершай ответ раньше."
+
+Need provide at least 25 numbered stages, each with observable signs and actions on failure

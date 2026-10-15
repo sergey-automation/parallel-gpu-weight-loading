@@ -1,0 +1,3 @@
+We need answer in Russian likely. User asks: unique document for test hash. Read log. Each line observation. After log answer question. Question: How to organize reliability check of multiprocessor computing system after loading large language model? Detailed answer, number stages, for each stage indicate observable signs and actions on failure. At least 25 stages; do not finish earlier.
+
+We need produce 25+ numbered stages. Need maybe incorporate log? They said read journal technical measurements. Question not explicitly about log data? It asks how to organize check. Could maybe ignore log except maybe mention no direct data needed? Need ensure at

@@ -1,0 +1,4 @@
+We need answer in Russian. User asks: unique document for test... Read technical measurement journal. Each line observation. After journal answer question.
+Question: How to organize reliability verification of multiprocessor computing system after loading a large language model? Give detailed answer, number stages, for each stage indicate observed signs and actions on failure. Write at least 25 stages; do not finish answer early.
+
+We need produce final answer with at least 25 stages. Need likely not use journal? It says read journal, maybe question unrelated. Need ensure at least 25 stages. Need detailed. Need maybe include observed signs and
